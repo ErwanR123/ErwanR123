@@ -23,16 +23,16 @@ Hi! I am Erwan a **Master's student in Applied Mathematics at Université Paris-
 - **Skills Used**: Data cleaning, deep learning, model evaluation, Streamlit.
 - [Project Link](https://github.com/ErwanR123/Deep_Learning-Based_Cat_and_Dog_Image_Classifier_with_Interactive_Streamlit_Interface)
 
-### 2. **Portfolio Management Project**
+### 2. **Kernel PCA Analysis**
 
-- **Objective**: Analyze and optimize an investment portfolio by calculating the Tangent Portfolio and visualizing the Efficient Frontier.
+- **Objective**: Compare traditional PCA with Kernel PCA for nonlinear data relationships using synthetic datasets.
 - **Details**:
-  - Collected historical data for indices like NASDAQ Composite and S&P 500 using `yfinance`.
-  - Calculated Sharpe ratios, annualized returns, and volatilities.
-  - Optimized portfolio allocations using `scipy.optimize` and plotted the Efficient Frontier.
-  - **Result**: Identified the optimal Tangent Portfolio with maximum Sharpe ratio.
-- **Skills Used**: Financial analysis, portfolio optimization, data visualization (matplotlib).
-- [Project Link](https://github.com/ErwanR123/Portfolio_Management_Project)
+  - Applied kernels like RBF, polynomial, and cosine to visualize transformations.
+  - Calculated relative differences in pairwise distances between original and transformed spaces.
+  - **Result**: Demonstrated the advantages of nonlinear kernels in capturing complex structures.
+- **Skills Used**: Python, kernel methods, data visualization.
+- [Project Link](https://github.com/ErwanR123/Kernel-PCA-Exploring-the-Power-of-Nonlinear-Principal-Component-Analysis)
+
 
 ### 3. **Monte Carlo Methods Project**
 
@@ -51,15 +51,16 @@ Hi! I am Erwan a **Master's student in Applied Mathematics at Université Paris-
 
 - [Project Link](https://github.com/ErwanR123/Monte_Carlo_Project)
 
-### 4. **Kernel PCA Analysis**
+### 4. **Portfolio Management Project**
 
-- **Objective**: Compare traditional PCA with Kernel PCA for nonlinear data relationships using synthetic datasets.
+- **Objective**: Analyze and optimize an investment portfolio by calculating the Tangent Portfolio and visualizing the Efficient Frontier.
 - **Details**:
-  - Applied kernels like RBF, polynomial, and cosine to visualize transformations.
-  - Calculated relative differences in pairwise distances between original and transformed spaces.
-  - **Result**: Demonstrated the advantages of nonlinear kernels in capturing complex structures.
-- **Skills Used**: Python, kernel methods, data visualization.
-- [Project Link](https://github.com/ErwanR123/Kernel-PCA-Exploring-the-Power-of-Nonlinear-Principal-Component-Analysis)
+  - Collected historical data for indices like NASDAQ Composite and S&P 500 using `yfinance`.
+  - Calculated Sharpe ratios, annualized returns, and volatilities.
+  - Plotted the Efficient Frontier.
+  - **Result**: Identified the optimal Tangent Portfolio with maximum Sharpe ratio.
+- **Skills Used**: Financial analysis, portfolio optimization, data visualization (matplotlib).
+- [Project Link](https://github.com/ErwanR123/Portfolio_Management_Project)
 
 ### 5. **Financial Data Science with Python**
 
