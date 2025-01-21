@@ -14,23 +14,24 @@ Hi! I am Erwan a **Master's student in Applied Mathematics at Université Paris-
 
 ### 1. **Cat vs Dog Image Classification**
 
-- **Objective**: Build and train a Convolutional Neural Network (CNN) to classify images of cats and dogs.
+- **Objective**: Build and train a Convolutional Neural Network (CNN) from scratch to classify images of cats and dogs.
 - **Details**:
-  - Designed a custom CNN with Batch Normalization, Dropout, and L2 Regularization.
-  - Preprocessing steps included resizing images to 128x128 pixels, cleaning corrupted images, and normalizing pixel values.
+  - The architecture utilized essential layers such as Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization.
+  - Preprocessed a dataset of ~20,000 images by cleaning corrupted files, resizing, and normalizing pixel values for optimal
+model performance.
   - **Deployment**: Interactive Streamlit interface for real-time image classification.
   - **Result**: Achieved ~87% validation accuracy with precision of 0.81 and recall of 0.79.
-- **Skills Used**: Data cleaning, deep learning, model evaluation, Streamlit.
+- **Skills Used**: Deep Learning, CNN Architecture Design, Data Cleaning, Streamlit, TensorFlow Keras, Numpy, Matplotlib.
 - [Project Link](https://github.com/ErwanR123/Deep_Learning-Based_Cat_and_Dog_Image_Classifier_with_Interactive_Streamlit_Interface)
 
 ### 2. **Kernel PCA Analysis**
 
-- **Objective**: Compare traditional PCA with Kernel PCA for nonlinear data relationships using synthetic datasets.
+- **Objective**: Compare traditional PCA with Kernel PCA for nonlinear data relationships using synthetic 3D S-curve dataset.
 - **Details**:
-  - Applied kernels like RBF, polynomial, and cosine to visualize transformations.
+  - Comparison of several kernels like RBF, polynomial, and cosine to visualize transformations.
   - Calculated relative differences in pairwise distances between original and transformed spaces.
   - **Result**: Demonstrated the advantages of nonlinear kernels in capturing complex structures.
-- **Skills Used**: Python, kernel methods, data visualization.
+- **Skills Used**: Python, kernel methods, data visualization,.
 - [Project Link](https://github.com/ErwanR123/Kernel-PCA-Exploring-the-Power-of-Nonlinear-Principal-Component-Analysis)
 
 
