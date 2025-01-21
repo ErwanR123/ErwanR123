@@ -36,11 +36,6 @@ model performance.
 
 
 ### 3. **Monte Carlo Methods Project**
-
-
-● Compared results and visualized convergence of empirical estimates to theoretical distributions and computed confidence
-intervals.
-
 - **Objective**: Explore Monte Carlo simulation techniques for statistical estimation and probability analysis on a non-
 Gaussian-weighted mixture of distributions.
 - **Details**:
@@ -87,6 +82,7 @@ intervals.
   - **Result**: Provided an intuitive and visually appealing toolkit for users.
 - **Skills Used**: Web development, JavaScript interactivity, responsive design.
 - [Project Link](https://github.com/ErwanR123/First-Web-project-2021-/tree/main)
+
 ---
 
 ## 🌐 Where to Find Me
