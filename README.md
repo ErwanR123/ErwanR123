@@ -4,7 +4,7 @@ Hi! I am Erwan a **Master's student in Applied Mathematics at Université Paris-
 
 ## 🎨 About Me
 
-- **🔧 Programming languages**: Python, R, SQL.
+- **🔧 Programming languages and Software**: Python, R, SQL, SAS, MATLAB.
 - **🔬 Librairies**: Matplotlib, NumPy, Pandas, Beautiful Soup, TensorFlow Keras, PyTorch, Scikit-Learn, Seaborn.
 - **🏆 Goal**: To pursue a specialized Master's degree in artificial intelligence and data science while gaining hands-on experience through internships.
 
