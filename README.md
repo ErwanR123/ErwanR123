@@ -36,8 +36,7 @@ model performance.
 
 
 ### 3. **Monte Carlo Methods Project**
-- **Objective**: Explore Monte Carlo simulation techniques for statistical estimation and probability analysis on a non-
-Gaussian-weighted mixture of distributions.
+- **Objective**: Explore Monte Carlo simulation techniques for statistical estimation and probability analysis on a non-Gaussian-weighted mixture of distributions.
 - **Details**:
   - Developed and implemented variable estimation methods including Inverse CDF sampling and Acceptance Rejection.
   - Employed variance reduction strategies including:
@@ -46,9 +45,9 @@ Gaussian-weighted mixture of distributions.
     - **Stratified Sampling**: Enhanced sampling efficiency by partitioning and optimizing within strata. 
   - Compared results and visualized convergence of empirical estimates to theoretical distributions and computed confidence
 intervals.
-**Result**: Demonstrated improved efficiency and accuracy in estimating probabilities and quantiles for complex distributions.
+- **Result**: Demonstrated improved efficiency and accuracy in estimating probabilities and quantiles for complex distributions.
 
-**Skills Used**: Monte Carlo simulation, R programming, variance reduction techniques, Statistical Estimation.
+- **Skills Used**: Monte Carlo simulation, R programming, variance reduction techniques, Statistical Estimation.
 
 - [Project Link](https://github.com/ErwanR123/Monte_Carlo_Project)
 
@@ -58,7 +57,7 @@ intervals.
 - **Details**:
   - Collected historical data for indices ^RUT','^IXIC','^GSPC' and 'XWD.TO using `yfinance`.
   - Calculated Sharpe ratios, annualized returns, volatilities and the tangent portfolio.
-  - **Result**: Identified the optimal Tangent Portfolio with maximum Sharpe ratio.
+- **Result**: Identified the optimal Tangent Portfolio with maximum Sharpe ratio.
 - **Skills Used**: Python, Financial analysis, yfinance, Numpy, Pandas.
 - [Project Link](https://github.com/ErwanR123/Portfolio_Management_Project)
 
