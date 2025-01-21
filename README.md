@@ -37,30 +37,34 @@ model performance.
 
 ### 3. **Monte Carlo Methods Project**
 
-- **Objective**: Explore Monte Carlo simulation techniques for statistical estimation and probability analysis.
-- **Details**:
-  - Implemented advanced Monte Carlo methods such as inverse CDF sampling, acceptance-rejection, stratified sampling, importance sampling, and control variates.
-  - Employed variance reduction strategies including:
-    - **Control Variates Method**: Used a correlated score function for optimal bias correction.
-    - **Importance Sampling**: Leveraged a non-Gaussian-weighted mixture of distributions for rare event probability estimation.
-    - **Stratified Accept-Reject Method**: Enhanced sampling efficiency by partitioning and optimizing within strata. 
-  - Visualized convergence of empirical estimates to theoretical distributions and computed confidence intervals.
 
+● Compared results and visualized convergence of empirical estimates to theoretical distributions and computed confidence
+intervals.
+
+- **Objective**: Explore Monte Carlo simulation techniques for statistical estimation and probability analysis on a non-
+Gaussian-weighted mixture of distributions.
+- **Details**:
+  - Developed and implemented variable estimation methods including Inverse CDF sampling and Acceptance Rejection.
+  - Employed variance reduction strategies including:
+    - **Control Variates**: Used a correlated score function for optimal bias correction.
+    - **Importance Sampling**: Leveraged a non-Gaussian-weighted mixture of distributions for rare event probability estimation.
+    - **Stratified Sampling**: Enhanced sampling efficiency by partitioning and optimizing within strata. 
+  - Compared results and visualized convergence of empirical estimates to theoretical distributions and computed confidence
+intervals.
 **Result**: Demonstrated improved efficiency and accuracy in estimating probabilities and quantiles for complex distributions.
 
-**Skills Used**: Stochastic simulation, R programming, variance reduction techniques, probability estimation.
+**Skills Used**: Monte Carlo simulation, R programming, variance reduction techniques, Statistical Estimation.
 
 - [Project Link](https://github.com/ErwanR123/Monte_Carlo_Project)
 
 ### 4. **Portfolio Management Project**
 
-- **Objective**: Analyze and optimize an investment portfolio by calculating the Tangent Portfolio and visualizing the Efficient Frontier.
+- **Objective**: Analyze an investment portfolio by calculating the Tangent Portfolio, Sharpe ratios, annualized returns and volatilities.
 - **Details**:
-  - Collected historical data for indices like NASDAQ Composite and S&P 500 using `yfinance`.
-  - Calculated Sharpe ratios, annualized returns, and volatilities.
-  - Plotted the Efficient Frontier.
+  - Collected historical data for indices ^RUT','^IXIC','^GSPC' and 'XWD.TO using `yfinance`.
+  - Calculated Sharpe ratios, annualized returns, volatilities and the tangent portfolio.
   - **Result**: Identified the optimal Tangent Portfolio with maximum Sharpe ratio.
-- **Skills Used**: Financial analysis, portfolio optimization, data visualization (matplotlib).
+- **Skills Used**: Python, Financial analysis, yfinance, Numpy, Pandas.
 - [Project Link](https://github.com/ErwanR123/Portfolio_Management_Project)
 
 ### 5. **Financial Data Science with Python**
@@ -71,7 +75,7 @@ model performance.
   - Cleaned and prepared datasets for analysis.
   - Visualized stock price trends alongside revenue trends with dual-axis plots.
   - **Result**: Provided insights into stock performance relative to company revenues.
-- **Skills Used**: Data collection, web scraping (BeautifulSoup), data visualization.
+- **Skills Used**: Python, Data collection, web scraping (BeautifulSoup), data visualization.
 - [Project Link](https://github.com/ErwanR123/Financial-Data-Science-with-Python-Coursera-Project)
 
 ### 6. **CalculFacile: A Simple Mathematical Toolkit**
