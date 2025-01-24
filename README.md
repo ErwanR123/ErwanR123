@@ -42,7 +42,7 @@ model performance.
 - **Details**:
   - Comparison of several kernels like RBF, polynomial, and cosine to visualize transformations.
   - Calculated relative differences in pairwise distances between original and transformed spaces.
-  - **Result**: Demonstrated the advantages of nonlinear kernels in capturing complex structures.
+- **Result**: Demonstrated the advantages of nonlinear kernels in capturing complex structures.
 - **Skills Used**: Python, kernel methods, data visualization,.
 - [Project Link](https://github.com/ErwanR123/Kernel-PCA-Exploring-the-Power-of-Nonlinear-Principal-Component-Analysis)
 
