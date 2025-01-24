@@ -24,7 +24,19 @@ model performance.
 - **Skills Used**: Deep Learning, CNN Architecture Design, Data Cleaning, Streamlit, TensorFlow Keras, Numpy, Matplotlib.
 - [Project Link](https://github.com/ErwanR123/Deep_Learning-Based_Cat_and_Dog_Image_Classifier_with_Interactive_Streamlit_Interface)
 
-### 2. **Kernel PCA Analysis**
+### 2. Bike-Sharing Demand Analysis Data Science Project
+- **Objective**: Develop a predictive model to analyze and forecast bike-sharing demand in urban areas using Generalized Linear Models (GLM).
+- **Details:**
+  - Prepared and explored a dataset of **1,817 observations** with **13 variables** (e.g., weather, season, time of day).
+  - Applied **Box-Cox transformations** and variable selection techniques **(AIC, BIC)** to refine the model and improve prediction accuracy.
+  - Incorporated interaction effects (e.g., time of day × season, temperature × humidity) to capture complex relationships.
+  - Validated the model with an **MSE of 217.84**, achieving robust accuracy for operational decision-making.
+**Result:** Provided actionable insights to optimize bike redistribution based on temporal and weather patterns.
+**Skills Used:** R programming, Generalized Linear Models, Data Cleaning, Predictive Analytics, Data Visualization.
+- [Project Link](https://github.com/ErwanR123/Analysis_and_Modeling_of_Bike_Sharing_Demand_Using_GLM/tree/main)
+
+
+### 3. **Kernel PCA Analysis**
 
 - **Objective**: Compare traditional PCA with Kernel PCA for nonlinear data relationships using synthetic 3D S-curve dataset.
 - **Details**:
@@ -35,7 +47,7 @@ model performance.
 - [Project Link](https://github.com/ErwanR123/Kernel-PCA-Exploring-the-Power-of-Nonlinear-Principal-Component-Analysis)
 
 
-### 3. **Monte Carlo Methods Project**
+### 4. **Monte Carlo Methods Project**
 - **Objective**: Explore Monte Carlo simulation techniques for statistical estimation and probability analysis on a non-Gaussian-weighted mixture of distributions.
 - **Details**:
   - Developed and implemented variable estimation methods including Inverse CDF sampling and Acceptance Rejection.
@@ -51,7 +63,7 @@ intervals.
 
 - [Project Link](https://github.com/ErwanR123/Monte_Carlo_Project)
 
-### 4. **Portfolio Management Project**
+### 5. **Portfolio Management Project**
 
 - **Objective**: Analyze an investment portfolio by calculating the Tangent Portfolio, Sharpe ratios, annualized returns and volatilities.
 - **Details**:
@@ -61,7 +73,7 @@ intervals.
 - **Skills Used**: Python, Financial analysis, yfinance, Numpy, Pandas.
 - [Project Link](https://github.com/ErwanR123/Portfolio_Management_Project)
 
-### 5. **Financial Data Science with Python**
+### 6. **Financial Data Science with Python**
 
 - **Objective**: Analyze financial data and stock trends for companies like Tesla, GameStop, and Netflix.
 - **Details**:
@@ -72,7 +84,7 @@ intervals.
 - **Skills Used**: Python, Data collection, web scraping (BeautifulSoup), data visualization.
 - [Project Link](https://github.com/ErwanR123/Financial-Data-Science-with-Python-Coursera-Project)
 
-### 6. **CalculFacile: A Simple Mathematical Toolkit**
+### 7. **CalculFacile: A Simple Mathematical Toolkit**
 
 - **Objective**: Create a web-based application for basic mathematical operations.
 - **Details**:
