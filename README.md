@@ -31,8 +31,8 @@ model performance.
   - Applied **Box-Cox transformations** and variable selection techniques **(AIC, BIC)** to refine the model and improve prediction accuracy.
   - Incorporated interaction effects (e.g., time of day × season, temperature × humidity) to capture complex relationships.
   - Validated the model with an **MSE of 217.84**, achieving robust accuracy for operational decision-making.
-**Result:** Provided actionable insights to optimize bike redistribution based on temporal and weather patterns.
-**Skills Used:** R programming, Generalized Linear Models, Data Cleaning, Predictive Analytics, Data Visualization.
+- **Result:** Provided actionable insights to optimize bike redistribution based on temporal and weather patterns.
+- **Skills Used:** R programming, Generalized Linear Models, Data Cleaning, Predictive Analytics, Data Visualization.
 - [Project Link](https://github.com/ErwanR123/Analysis_and_Modeling_of_Bike_Sharing_Demand_Using_GLM/tree/main)
 
 
