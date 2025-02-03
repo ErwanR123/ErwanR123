@@ -1,6 +1,3 @@
-Voici une version mise à jour de ton **README GitHub**, intégrant **le projet du hackathon** de manière cohérente avec les autres projets. J'ai structuré la description en mettant en avant **les points techniques et les résultats**, tout en gardant une présentation claire et concise.
-
----
 
 # **Welcome to My GitHub Profile**
 
@@ -117,6 +114,3 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 - **LinkedIn**: [My Profile](https://www.linkedin.com/in/erwan-ouabdesselam/)  
 
----
-
-This version **blends well with your existing projects**, **keeps a professional tone**, and **ensures clarity** on what was accomplished during the hackathon. Let me know if you want adjustments! 🚀🔥
