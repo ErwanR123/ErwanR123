@@ -1,105 +1,122 @@
-# Welcome to My GitHub Profile
-
-Hi! I am Erwan a **Master's student in Applied Mathematics at Université Paris-Dauphine**, passionate about **data science** and **artificial intelligence**. I am always looking for opportunities to learn, collaborate, and work on innovative projects. Here, you'll find a selection of my main projects that reflect my interest in AI and my technical skills.
-
-## 🎨 About Me
-
-- **🔧 Programming languages and Software**: Python, R, SQL, SAS, MATLAB.
-- **🔬 Librairies**: Matplotlib, NumPy, Pandas, Beautiful Soup, TensorFlow Keras, PyTorch, Scikit-Learn, Seaborn.
-- **🏆 Goal**: To pursue a specialized Master's degree in artificial intelligence and data science while gaining hands-on experience through internships.
+Voici une version mise à jour de ton **README GitHub**, intégrant **le projet du hackathon** de manière cohérente avec les autres projets. J'ai structuré la description en mettant en avant **les points techniques et les résultats**, tout en gardant une présentation claire et concise.
 
 ---
 
-## 📚 My Projects
+# **Welcome to My GitHub Profile**
 
-### 1. **Cat vs Dog Image Classification**
+Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris-Dauphine**, passionate about **data science** and **artificial intelligence**. I am always looking for opportunities to learn, collaborate, and work on innovative projects. Here, you'll find a selection of my main projects that reflect my interest in AI and my technical skills.
 
-- **Objective**: Build and train a Convolutional Neural Network (CNN) from scratch to classify images of cats and dogs.
-- **Details**:
-  - The architecture utilized essential layers such as Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization.
-  - Preprocessed a dataset of ~20,000 images by cleaning corrupted files, resizing, and normalizing pixel values for optimal
-model performance.
-  - **Deployment**: Interactive Streamlit interface for real-time image classification.
-  - **Result**: Achieved ~87% validation accuracy with precision of 0.81 and recall of 0.79.
-- **Skills Used**: Deep Learning, CNN Architecture Design, Data Cleaning, Streamlit, TensorFlow Keras, Numpy, Matplotlib.
-- [Project Link](https://github.com/ErwanR123/Deep_Learning-Based_Cat_and_Dog_Image_Classifier_with_Interactive_Streamlit_Interface)
+## 🎨 About Me  
 
-### 2. Bike-Sharing Demand Analysis Data Science Project
-- **Objective**: Develop a predictive model to analyze and forecast bike-sharing demand in urban areas using Generalized Linear Models (GLM).
-- **Details:**
-  - Prepared and explored a dataset of **1,817 observations** with **13 variables** (e.g., weather, season, time of day).
-  - Applied **Box-Cox transformations** and variable selection techniques **(AIC, BIC)** to refine the model and improve prediction accuracy.
-  - Incorporated interaction effects (e.g., time of day × season, temperature × humidity) to capture complex relationships.
-  - Validated the model with an **MSE of 217.84**, achieving robust accuracy for operational decision-making.
-- **Result:** Provided actionable insights to optimize bike redistribution based on temporal and weather patterns.
-- **Skills Used:** R programming, Generalized Linear Models, Data Cleaning, Predictive Analytics, Data Visualization.
-- [Project Link](https://github.com/ErwanR123/Analysis_and_Modeling_of_Bike_Sharing_Demand_Using_GLM/tree/main)
-
-
-### 3. **Kernel PCA Analysis**
-
-- **Objective**: Compare traditional PCA with Kernel PCA for nonlinear data relationships using synthetic 3D S-curve dataset.
-- **Details**:
-  - Comparison of several kernels like RBF, polynomial, and cosine to visualize transformations.
-  - Calculated relative differences in pairwise distances between original and transformed spaces.
-- **Result**: Demonstrated the advantages of nonlinear kernels in capturing complex structures.
-- **Skills Used**: Python, kernel methods, data visualization,.
-- [Project Link](https://github.com/ErwanR123/Kernel-PCA-Exploring-the-Power-of-Nonlinear-Principal-Component-Analysis)
-
-
-### 4. **Monte Carlo Methods Project**
-- **Objective**: Explore Monte Carlo simulation techniques for statistical estimation and probability analysis on a non-Gaussian-weighted mixture of distributions.
-- **Details**:
-  - Developed and implemented variable estimation methods including Inverse CDF sampling and Acceptance Rejection.
-  - Employed variance reduction strategies including:
-    - **Control Variates**: Used a correlated score function for optimal bias correction.
-    - **Importance Sampling**: Leveraged a non-Gaussian-weighted mixture of distributions for rare event probability estimation.
-    - **Stratified Sampling**: Enhanced sampling efficiency by partitioning and optimizing within strata. 
-  - Compared results and visualized convergence of empirical estimates to theoretical distributions and computed confidence
-intervals.
-- **Result**: Demonstrated improved efficiency and accuracy in estimating probabilities and quantiles for complex distributions.
-
-- **Skills Used**: Monte Carlo simulation, R programming, variance reduction techniques, Statistical Estimation.
-
-- [Project Link](https://github.com/ErwanR123/Monte_Carlo_Project)
-
-### 5. **Portfolio Management Project**
-
-- **Objective**: Analyze an investment portfolio by calculating the Tangent Portfolio, Sharpe ratios, annualized returns and volatilities.
-- **Details**:
-  - Collected historical data for indices ^RUT','^IXIC','^GSPC' and 'XWD.TO using `yfinance`.
-  - Calculated Sharpe ratios, annualized returns, volatilities and the tangent portfolio.
-- **Result**: Identified the optimal Tangent Portfolio with maximum Sharpe ratio.
-- **Skills Used**: Python, Financial analysis, yfinance, Numpy, Pandas.
-- [Project Link](https://github.com/ErwanR123/Portfolio_Management_Project)
-
-### 6. **Financial Data Science with Python**
-
-- **Objective**: Analyze financial data and stock trends for companies like Tesla, GameStop, and Netflix.
-- **Details**:
-  - Collected historical stock data using `yfinance` and revenue data via web scraping.
-  - Cleaned and prepared datasets for analysis.
-  - Visualized stock price trends alongside revenue trends with dual-axis plots.
-  - **Result**: Provided insights into stock performance relative to company revenues.
-- **Skills Used**: Python, Data collection, web scraping (BeautifulSoup), data visualization.
-- [Project Link](https://github.com/ErwanR123/Financial-Data-Science-with-Python-Coursera-Project)
-
-### 7. **CalculFacile: A Simple Mathematical Toolkit**
-
-- **Objective**: Create a web-based application for basic mathematical operations.
-- **Details**:
-  - Implemented a matrix calculator, quadratic equation solver, and basic arithmetic calculator.
-  - Built the interface using HTML, CSS, and JavaScript.
-  - **Result**: Provided an intuitive and visually appealing toolkit for users.
-- **Skills Used**: Web development, JavaScript interactivity, responsive design.
-- [Project Link](https://github.com/ErwanR123/First-Web-project-2021-/tree/main)
+- **🔧 Programming languages and Software**: Python, R, SQL, SAS, MATLAB.  
+- **🔬 Libraries**: Matplotlib, NumPy, Pandas, Beautiful Soup, TensorFlow Keras, PyTorch, Scikit-Learn, Seaborn.  
+- **🏆 Goal**: To pursue a specialized Master's degree in artificial intelligence and data science while gaining hands-on experience through internships.  
 
 ---
 
-## 🌐 Where to Find Me
+## 📚 **My Projects**  
 
-- **LinkedIn**: [My Profile](https://www.linkedin.com/in/erwan-ouabdesselam/)
+### 🚀 **1. Hackathon Gen AI - Sia Partners & SFIL**  
 
-Thank you for visiting my GitHub profile. Feel free to reach out for collaborations or opportunities!
+- **Objective**: Develop an AI-powered pipeline to automatically generate structured reports for French local authorities (SPLs) based on financial, demographic, and investment data.  
+- **Details**:  
+  - **Data Sources**: Open government datasets, financial reports, Wikipedia, LinkedIn, and news articles.  
+  - **Technologies**: AWS Lambda, S3, SerpAPI, BeautifulSoup, Pandas, Mistral AI (LLM for text summarization and chatbot).  
+  - **Key Features**:  
+    - Automated data extraction and enrichment using **SerpAPI & Wikipedia API**.  
+    - Integration of **Mistral AI** to summarize and extract key insights from reports.  
+    - Classification of local authorities using **ELECTRE multi-criteria decision analysis**.  
+    - **Interactive Streamlit dashboard** displaying structured reports, financial indicators, and ELECTRE results.  
+  - **Future Enhancements**:  
+    - **Chatbot powered by Mistral AI** for interactive queries on local authority data.  
+    - Improved API efficiency and optimization of financial data processing.  
+- **Skills Used**: Cloud Computing (AWS Lambda, S3), NLP (Mistral AI), Web Scraping (BeautifulSoup, SerpAPI), Data Processing (Pandas), Decision Analysis (ELECTRE).  
+- [Project Link](https://github.com/ErwanR123/Hackathon_Gen_AI_SIA_Partners_Silf/tree/main)
 
+---
 
+### 🐱 **2. Cat vs Dog Image Classification**  
+- **Objective**: Train a CNN model from scratch to classify images of cats and dogs.  
+- **Details**:  
+  - Used layers such as Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization.  
+  - Processed a dataset of **~20,000 images**, resizing and normalizing for optimal model performance.  
+  - **Interactive Streamlit interface** for real-time image classification.  
+- **Result**: Achieved **~87% validation accuracy** with precision of 0.81 and recall of 0.79.  
+- **Skills Used**: Deep Learning, CNNs, Data Cleaning, Streamlit, TensorFlow Keras.  
+- [Project Link](https://github.com/ErwanR123/Deep_Learning-Based_Cat_and_Dog_Image_Classifier_with_Interactive_Streamlit_Interface)  
+
+---
+
+### 🚲 **3. Bike-Sharing Demand Analysis**  
+- **Objective**: Forecast urban bike-sharing demand using Generalized Linear Models (GLM).  
+- **Details**:  
+  - Explored dataset with **1,817 observations and 13 variables** (weather, time, season, etc.).  
+  - Used **Box-Cox transformations** and feature selection (**AIC, BIC**).  
+  - **Incorporated interaction effects** (e.g., time × season) for better accuracy.  
+- **Result**: Achieved an **MSE of 217.84**, providing insights for operational decision-making.  
+- **Skills Used**: R, GLMs, Predictive Analytics, Data Visualization.  
+- [Project Link](https://github.com/ErwanR123/Analysis_and_Modeling_of_Bike_Sharing_Demand_Using_GLM/tree/main)  
+
+---
+
+### 🔬 **4. Kernel PCA Analysis**  
+- **Objective**: Compare traditional PCA with Kernel PCA for nonlinear data representation.  
+- **Details**:  
+  - Used **RBF, polynomial, and cosine kernels** to visualize transformations.  
+  - Analyzed pairwise distances between original and transformed spaces.  
+- **Result**: Demonstrated **the advantages of nonlinear kernels** in capturing complex structures.  
+- **Skills Used**: Python, Kernel Methods, Data Visualization.  
+- [Project Link](https://github.com/ErwanR123/Kernel-PCA-Exploring-the-Power-of-Nonlinear-Principal-Component-Analysis)  
+
+---
+
+### 🎲 **5. Monte Carlo Simulation Techniques**  
+- **Objective**: Explore Monte Carlo methods for probability estimation on a **non-Gaussian-weighted mixture of distributions**.  
+- **Details**:  
+  - Implemented **Inverse CDF sampling, Acceptance Rejection**, and variance reduction techniques.  
+  - Used **Control Variates, Importance Sampling, and Stratified Sampling** to optimize accuracy.  
+  - **Compared convergence rates** to theoretical distributions.  
+- **Result**: Demonstrated improved efficiency and accuracy for complex probability estimation.  
+- **Skills Used**: Monte Carlo Simulation, R, Statistical Estimation.  
+- [Project Link](https://github.com/ErwanR123/Monte_Carlo_Project)  
+
+---
+
+### 📈 **6. Portfolio Management Project**  
+- **Objective**: Analyze an investment portfolio by calculating optimal allocations.  
+- **Details**:  
+  - Collected historical market data using `yfinance`.  
+  - Calculated **Sharpe ratios, annualized returns, volatilities**, and **tangent portfolio**.  
+- **Result**: Identified the **optimal Tangent Portfolio** with maximum Sharpe ratio.  
+- **Skills Used**: Python, Finance, Data Analysis, yfinance, Pandas.  
+- [Project Link](https://github.com/ErwanR123/Portfolio_Management_Project)  
+
+---
+
+### 💰 **7. Financial Data Science with Python**  
+- **Objective**: Analyze stock market trends for companies like Tesla, GameStop, and Netflix.  
+- **Details**:  
+  - Collected stock data using `yfinance`, scraped revenue data via BeautifulSoup.  
+  - Created **dual-axis visualizations** for stock performance and revenue trends.  
+- **Skills Used**: Python, Data Collection, Web Scraping, Data Visualization.  
+- [Project Link](https://github.com/ErwanR123/Financial-Data-Science-with-Python-Coursera-Project)  
+
+---
+
+### 🖥️ **8. CalculFacile: A Simple Mathematical Toolkit**  
+- **Objective**: Create a **web-based** application for fundamental math operations.  
+- **Details**:  
+  - Implemented a **matrix calculator, quadratic equation solver, and arithmetic tools**.  
+  - Built with **HTML, CSS, JavaScript** for an intuitive UI.  
+- **Skills Used**: Web Development, JavaScript, Frontend Design.  
+- [Project Link](https://github.com/ErwanR123/First-Web-project-2021-/tree/main)  
+
+---
+
+## 🌐 **Where to Find Me**  
+
+- **LinkedIn**: [My Profile](https://www.linkedin.com/in/erwan-ouabdesselam/)  
+
+---
+
+This version **blends well with your existing projects**, **keeps a professional tone**, and **ensures clarity** on what was accomplished during the hackathon. Let me know if you want adjustments! 🚀🔥
