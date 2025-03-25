@@ -56,18 +56,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 ---
 
-### 🔬 **4. Kernel PCA Analysis**  
-- **Objective**: Compare traditional PCA with Kernel PCA for nonlinear data representation.  
-- **Details**:  
-  - Used **RBF, polynomial, and cosine kernels** to visualize transformations.  
-  - Analyzed pairwise distances between original and transformed spaces.  
-- **Result**: Demonstrated **the advantages of nonlinear kernels** in capturing complex structures.  
-- **Skills Used**: Python, Kernel Methods, Data Visualization.  
-- [Project Link](https://github.com/ErwanR123/Kernel-PCA-Exploring-the-Power-of-Nonlinear-Principal-Component-Analysis)  
-
----
-
-### 🎲 **5. Monte Carlo Simulation Techniques**  
+### 🎲 **4. Monte Carlo Simulation Techniques**  
 - **Objective**: Explore Monte Carlo methods for probability estimation on a **non-Gaussian-weighted mixture of distributions**.  
 - **Details**:  
   - Implemented **Inverse CDF sampling, Acceptance Rejection**, and variance reduction techniques.  
@@ -79,7 +68,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 ---
 
-### 📈 **6. Portfolio Management Project**  
+### 📈 **5. Portfolio Management Project**  
 - **Objective**: Analyze an investment portfolio by calculating optimal allocations.  
 - **Details**:  
   - Collected historical market data using `yfinance`.  
@@ -90,7 +79,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 ---
 
-### 💰 **7. Financial Data Science with Python**  
+### 💰 **6. Financial Data Science with Python**  
 - **Objective**: Analyze stock market trends for companies like Tesla, GameStop, and Netflix.  
 - **Details**:  
   - Collected stock data using `yfinance`, scraped revenue data via BeautifulSoup.  
@@ -100,7 +89,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 ---
 
-### 🖥️ **8. CalculFacile: A Simple Mathematical Toolkit**  
+### 🖥️ **7. CalculFacile: A Simple Mathematical Toolkit**  
 - **Objective**: Create a **web-based** application for fundamental math operations.  
 - **Details**:  
   - Implemented a **matrix calculator, quadratic equation solver, and arithmetic tools**.  
