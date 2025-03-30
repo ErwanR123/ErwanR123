@@ -5,7 +5,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 ## 🎨 About Me  
 
-- **🔧 Programming languages and Software**: Python, R, SQL, SAS, MATLAB.  
+- **🔧 Programming languages and Software**: Python, R, C++, JAVA, SQL, SAS, MATLAB, VBA.  
 - **🔬 Libraries**: Matplotlib, NumPy, Pandas, Beautiful Soup, TensorFlow Keras, PyTorch, Scikit-Learn, Seaborn.  
 - **🏆 Goal**: To pursue a specialized Master's degree in artificial intelligence and data science while gaining hands-on experience through internships.  
 
@@ -55,8 +55,20 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 - [Project Link](https://github.com/ErwanR123/Analysis_and_Modeling_of_Bike_Sharing_Demand_Using_GLM/tree/main)  
 
 ---
+## 💬 **4. Sentiment Analysis – Logistic Regression vs KNN**
+- **Objective**: Compare two classification models (Logistic Regression and KNN) for binary sentiment analysis using the IMDB Dataset of 50K Movie Reviews from Kaggle.
+- **Details**:
+  - Cleaned and preprocessed text using regex and NLTK stopwords.
+  - Vectorized the data using TF-IDF.
+  - Trained and evaluated both models using accuracy, F1-score, and confusion matrices.
+  - Built a simple user interface where users can enter a comment and receive the probability of it being positive or negative.
+- **Result**: Logistic Regression outperformed KNN significantly and was selected as the final model.
+- **Skills Used**: Machine Learning, NLP, Text Classification, TF-IDF, Scikit-Learn, Model Evaluation.
+- [Project Link]([https://github.com/ErwanR123/Analysis_and_Modeling_of_Bike_Sharing_Demand_Using_GLM/tree/main](https://github.com/ErwanR123/Sentiment-Classification-with-Logistic-Regression-and-KNN/tree/main))  
 
-### 🎲 **4. Monte Carlo Simulation Techniques**  
+---
+
+### 🎲 **5. Monte Carlo Simulation Techniques**  
 - **Objective**: Explore Monte Carlo methods for probability estimation on a **non-Gaussian-weighted mixture of distributions**.  
 - **Details**:  
   - Implemented **Inverse CDF sampling, Acceptance Rejection**, and variance reduction techniques.  
@@ -68,7 +80,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 ---
 
-### 📈 **5. Portfolio Management Project**  
+### 📈 **6. Portfolio Management Project**  
 - **Objective**: Analyze an investment portfolio by calculating optimal allocations.  
 - **Details**:  
   - Collected historical market data using `yfinance`.  
@@ -79,7 +91,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 ---
 
-### 💰 **6. Financial Data Science with Python**  
+### 💰 **7. Financial Data Science with Python**  
 - **Objective**: Analyze stock market trends for companies like Tesla, GameStop, and Netflix.  
 - **Details**:  
   - Collected stock data using `yfinance`, scraped revenue data via BeautifulSoup.  
@@ -89,7 +101,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 ---
 
-### 🖥️ **7. CalculFacile: A Simple Mathematical Toolkit**  
+### 🖥️ **8. CalculFacile: A Simple Mathematical Toolkit**  
 - **Objective**: Create a **web-based** application for fundamental math operations.  
 - **Details**:  
   - Implemented a **matrix calculator, quadratic equation solver, and arithmetic tools**.  
