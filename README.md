@@ -65,7 +65,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
   - Built a simple user interface where users can enter a comment and receive the probability of it being positive or negative.
 - **Result**: Logistic Regression outperformed KNN significantly and was selected as the final model.
 - **Skills Used**: Machine Learning, NLP, Text Classification, TF-IDF, Scikit-Learn, Model Evaluation.
-- [Project Link]([https://github.com/ErwanR123/Analysis_and_Modeling_of_Bike_Sharing_Demand_Using_GLM/tree/main](https://github.com/ErwanR123/Sentiment-Classification-with-Logistic-Regression-and-KNN/tree/main))  
+- [Project Link](https://github.com/ErwanR123/Sentiment-Classification-with-Logistic-Regression-and-KNN/tree/main)  
 
 ---
 
