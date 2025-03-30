@@ -56,7 +56,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 ---
 ## 💬 **4. Sentiment Analysis – Logistic Regression vs KNN**
-- **Objective**: Build and compare two classification models—Logistic Regression and K-Nearest Neighbors (KNN)—to perform binary sentiment analysis on movie reviews. Using the IMDB dataset of 50,000 movie reviews (sourced from Kaggle), the goal is to determine whether a review expresses a positive or negative sentiment through natural language processing techniques.
+- **Objective**: Build and compare two classification models (Logistic Regression and K-Nearest Neighbors (KNN)) to perform binary sentiment analysis on movie reviews. Using the IMDB dataset of 50,000 movie reviews (sourced from Kaggle), the goal is to determine whether a review expresses a positive or negative sentiment through natural language processing techniques.
   
 - **Details**:
   - Cleaned and preprocessed text using regex and NLTK stopwords.
