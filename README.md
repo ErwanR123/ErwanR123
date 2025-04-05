@@ -31,8 +31,21 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 - [Project Link](https://github.com/ErwanR123/Hackathon_Gen_AI_SIA_Partners_Silf/tree/main)
 
 ---
+### 🧠 **2. Sentiment Analysis with Kernel PCA**
 
-### 🐱 **2. Cat vs Dog Image Classification**  
+- **Objective**: Evaluate the impact of Kernel PCA (cosine kernel) on the performance of sentiment classification models using IMDb movie reviews.
+- **Details**:  
+  -Preprocessed text data using tokenization, POS-tagging, lemmatization, and stopword removal (NLTK).
+  - Vectorized reviews using Bag-of-Words (CountVectorizer with 10000 features).
+  - Applied non-linear dimensionality reduction via Kernel PCA (cosine kernel, 1000 components).
+  - Trained and compared multiple classifiers: Logistic Regression, SVM, KNN (with and without Kernel PCA).
+  - Built an interactive CLI to test sentiment prediction on custom user input.
+- **Result**: Kernel PCA significantly improved KNN performance, and slightly enhanced Logistic Regression and SVM.
+- **Skills Used**:NLP (NLTK), Dimensionality Reduction (Kernel PCA), Text Classification, Scikit-learn, Data Visualization, Model Evaluation.
+
+- [Project Link](https://github.com/ErwanR123/Sentiment-Analysis-on-IMDb-Movie-Reviews-using-Kernel-PCA)
+
+### 🐱 **3. Cat vs Dog Image Classification**  
 - **Objective**: Train a CNN model from scratch to classify images of cats and dogs.  
 - **Details**:  
   - Used layers such as Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization.  
@@ -44,7 +57,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 ---
 
-### 🚲 **3. Bike-Sharing Demand Analysis**  
+### 🚲 **4. Bike-Sharing Demand Analysis**  
 - **Objective**: Forecast urban bike-sharing demand using Generalized Linear Models (GLM).  
 - **Details**:  
   - Explored dataset with **1,817 observations and 13 variables** (weather, time, season, etc.).  
@@ -53,19 +66,6 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 - **Result**: Achieved an **MSE of 217.84**, providing insights for operational decision-making.  
 - **Skills Used**: R, GLMs, Predictive Analytics, Data Visualization.  
 - [Project Link](https://github.com/ErwanR123/Analysis_and_Modeling_of_Bike_Sharing_Demand_Using_GLM/tree/main)  
-
----
-## 💬 **4. Sentiment Analysis – Logistic Regression vs KNN**
-- **Objective**: Build and compare two classification models (Logistic Regression and K-Nearest Neighbors (KNN)) to perform binary sentiment analysis on movie reviews. Using the IMDB dataset of 50,000 movie reviews (sourced from Kaggle), the goal is to determine whether a review expresses a positive or negative sentiment through natural language processing techniques.
-  
-- **Details**:
-  - Cleaned and preprocessed text using regex and NLTK stopwords.
-  - Vectorized the data using TF-IDF.
-  - Trained and evaluated both models using accuracy, F1-score, and confusion matrices.
-  - Built a simple user interface where users can enter a comment and receive the probability of it being positive or negative.
-- **Result**: Logistic Regression outperformed KNN significantly and was selected as the final model.
-- **Skills Used**: Machine Learning, NLP, Text Classification, TF-IDF, Scikit-Learn, Model Evaluation.
-- [Project Link](https://github.com/ErwanR123/Sentiment-Classification-with-Logistic-Regression-and-KNN/tree/main)  
 
 ---
 
