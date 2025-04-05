@@ -35,7 +35,7 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 - **Objective**: Evaluate the impact of Kernel PCA (cosine kernel) on the performance of sentiment classification models using IMDb movie reviews.
 - **Details**:  
-  -Preprocessed text data using tokenization, POS-tagging, lemmatization, and stopword removal (NLTK).
+  - Preprocessed text data using tokenization, POS-tagging, lemmatization, and stopword removal (NLTK).
   - Vectorized reviews using Bag-of-Words (CountVectorizer with 10000 features).
   - Applied non-linear dimensionality reduction via Kernel PCA (cosine kernel, 1000 components).
   - Trained and compared multiple classifiers: Logistic Regression, SVM, KNN (with and without Kernel PCA).
