@@ -1,7 +1,9 @@
 
 # **Welcome to My GitHub Profile**
 
-Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris-Dauphine**, passionate about **data science** and **artificial intelligence**. I am always looking for opportunities to learn, collaborate, and work on innovative projects. Here, you'll find a selection of my main projects that reflect my interest in AI and my technical skills.
+Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris-Dauphine**, passionate about **data science** and **artificial intelligence**. I am always looking for opportunities to learn, collaborate, and work on innovative projects. 
+🎯 This summer, I will be joining **Neutigers** for a research internship, where I’ll contribute to the development of innovative AI solutions for healthcare and edge computing.
+Here, you'll find a selection of my main projects that reflect my interest in AI and my technical skills.
 
 ## 🎨 About Me  
 
@@ -114,5 +116,5 @@ Hi! I am Erwan, a **Master's student in Applied Mathematics at Université Paris
 
 ## 🌐 **Where to Find Me**  
 
-- **LinkedIn**: [My Profile](https://www.linkedin.com/in/erwan-ouabdesselam/)  
+- **LinkedIn**: [My Profile](https://www.linkedin.com/in/erwan-ouabdesselam/)
 
