@@ -15,7 +15,19 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 ## 📚 **My Projects**  
 
-### 🚀 **1. Hackathon Gen AI - Sia Partners & SFIL**  
+## 📘 **1. Master’s Thesis – Kernel PCA**  
+- **Title**: *Kernel Principal Component Analysis: Theory and Applications*  
+- **Summary**: A full theoretical and experimental exploration of Kernel PCA, focusing on its advantages over classical PCA for nonlinear dimensionality reduction.  
+- **Applications**:  
+  - **Sentiment classification** on IMDb movie reviews  
+  - **Anomaly detection** in handwritten digits (MNIST)  
+  - **Signal denoising** on ECG data (MIT-BIH)  
+- **Deliverables**: Complete report (in French) and all source code (Python, Jupyter Notebooks)  
+- 🔗 [**View the GitHub Repository**](https://github.com/ErwanR123/Master-Thesis-Kernel-PCA/tree/main)
+
+---
+
+### 🚀 **2. Hackathon Gen AI - Sia Partners & SFIL**  
 
 - **Objective**: Develop an AI-powered pipeline to automatically generate structured reports for French local authorities (SPLs) based on financial, demographic, and investment data.  
 - **Details**:  
@@ -33,21 +45,25 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 - [Project Link](https://github.com/ErwanR123/Hackathon_Gen_AI_SIA_Partners_Silf/tree/main)
 
 ---
-### 🧠 **2. Sentiment Analysis with Kernel PCA**
+### 🧠 3. Sentiment Analysis with Kernel PCA
 
-- **Objective**: Evaluate the impact of Kernel PCA (cosine kernel) on the performance of sentiment classification models using IMDb movie reviews.
-- **Details**:  
-  - Preprocessed text data using tokenization, POS-tagging, lemmatization, and stopword removal (NLTK).
-  - Vectorized reviews using Bag-of-Words (CountVectorizer with 10000 features).
-  - Applied non-linear dimensionality reduction via Kernel PCA (cosine kernel, 1000 components).
-  - Trained and compared multiple classifiers: Logistic Regression, SVM, KNN (with and without Kernel PCA).
-  - Built an interactive CLI to test sentiment prediction on custom user input.
-- **Result**: Kernel PCA significantly improved KNN performance, and slightly enhanced Logistic Regression and SVM.
-- **Skills Used**:NLP (NLTK), Dimensionality Reduction (Kernel PCA), Text Classification, Scikit-learn, Data Visualization, Model Evaluation.
+- **Objective**: Evaluate whether Kernel PCA (cosine kernel) can enhance the performance of standard classifiers in a binary sentiment classification task on IMDb reviews.
+- **Approach**:  
+  - Applied a complete NLP preprocessing pipeline: lowercasing, lemmatization with POS-tagging, stopword removal.  
+  - Converted text into numerical features using Bag-of-Words (`CountVectorizer`) with a fixed vocabulary size.  
+  - Reduced dimensionality using Kernel PCA (cosine kernel), and compared with both classical PCA and no reduction.  
+  - Trained and evaluated three classifiers: Logistic Regression, SVM (RBF kernel), and K-Nearest Neighbors.  
+  - Analyzed how performance varies depending on the number of components used in Kernel PCA.
+- **Findings**:  
+  - Kernel PCA significantly improved KNN classification performance.  
+  - Logistic Regression and SVM showed minor but consistent improvements with Kernel PCA over PCA.  
+  - An optimal number of components was identified to retain over 90% of the explained variance with the cosine kernel.
+- **Skills Used**: NLP (NLTK), Text Vectorization, Dimensionality Reduction (Kernel PCA), Scikit-learn, Model Evaluation, Experimental Design
 
 - [Project Link](https://github.com/ErwanR123/Sentiment-Analysis-on-IMDb-Movie-Reviews-using-Kernel-PCA)
+---
 
-### 🐱 **3. Cat vs Dog Image Classification**  
+### 🐱 **4. Cat vs Dog Image Classification**  
 - **Objective**: Train a CNN model from scratch to classify images of cats and dogs.  
 - **Details**:  
   - Used layers such as Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization.  
@@ -59,7 +75,7 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 ---
 
-### 🚲 **4. Bike-Sharing Demand Analysis**  
+### 🚲 **5. Bike-Sharing Demand Analysis**  
 - **Objective**: Forecast urban bike-sharing demand using Generalized Linear Models (GLM).  
 - **Details**:  
   - Explored dataset with **1,817 observations and 13 variables** (weather, time, season, etc.).  
@@ -71,7 +87,7 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 ---
 
-### 🎲 **5. Monte Carlo Simulation Techniques**  
+### 🎲 **6. Monte Carlo Simulation Techniques**  
 - **Objective**: Explore Monte Carlo methods for probability estimation on a **non-Gaussian-weighted mixture of distributions**.  
 - **Details**:  
   - Implemented **Inverse CDF sampling, Acceptance Rejection**, and variance reduction techniques.  
@@ -83,7 +99,7 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 ---
 
-### 📈 **6. Portfolio Management Project**  
+### 📈 **7. Portfolio Management Project**  
 - **Objective**: Analyze an investment portfolio by calculating optimal allocations.  
 - **Details**:  
   - Collected historical market data using `yfinance`.  
@@ -94,7 +110,7 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 ---
 
-### 💰 **7. Financial Data Science with Python**  
+### 💰 **8. Financial Data Science with Python**  
 - **Objective**: Analyze stock market trends for companies like Tesla, GameStop, and Netflix.  
 - **Details**:  
   - Collected stock data using `yfinance`, scraped revenue data via BeautifulSoup.  
@@ -104,7 +120,7 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 ---
 
-### 🖥️ **8. CalculFacile: A Simple Mathematical Toolkit**  
+### 🖥️ **9. CalculFacile: A Simple Mathematical Toolkit**  
 - **Objective**: Create a **web-based** application for fundamental math operations.  
 - **Details**:  
   - Implemented a **matrix calculator, quadratic equation solver, and arithmetic tools**.  
