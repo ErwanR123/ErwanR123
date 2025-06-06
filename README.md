@@ -82,7 +82,7 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 - **Bonus**:
   - Initial SVM experiments included (`svm.ipynb`), but not detailed in the final report.
 - **Skills Used**: Scikit-learn, Data Preprocessing, Model Evaluation, Hyperparameter Tuning, ROC Analysis.
-- [Project Link](https://github.com/ErwanR123/Breast-Cancer-Statistical-Learning-Project)
+- [Project Link](https://github.com/ErwanR123/breast-cancer-detection)
 
 ---
 
