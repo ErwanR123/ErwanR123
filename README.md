@@ -62,16 +62,27 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 - [Project Link](https://github.com/ErwanR123/Sentiment-Analysis-on-IMDb-Movie-Reviews-using-Kernel-PCA)
 ---
+### 🧪 **4. Breast Cancer Classification (Statistical Learning Project)**
 
-### 🐱 **4. Cat vs Dog Image Classification**  
-- **Objective**: Train a CNN model from scratch to classify images of cats and dogs.  
-- **Details**:  
-  - Used layers such as Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization.  
-  - Processed a dataset of **~20,000 images**, resizing and normalizing for optimal model performance.  
-  - **Interactive Streamlit interface** for real-time image classification.  
-- **Result**: Achieved **~87% validation accuracy** with precision of 0.81 and recall of 0.79.  
-- **Skills Used**: Deep Learning, CNNs, Data Cleaning, Streamlit, TensorFlow Keras.  
-- [Project Link](https://github.com/ErwanR123/Deep_Learning-Based_Cat_and_Dog_Image_Classifier_with_Interactive_Streamlit_Interface)  
+- **Objective**: Predict breast cancer presence based on clinical biomarkers from the Breast Cancer Coimbra dataset.
+- **Details**:
+  - Performed detailed **exploratory data analysis**: histograms, boxplots, scatter matrices, and correlation matrices.
+  - Applied **log transformation** to right-skewed variables (`Insulin`, `HOMA`, `MCP.1`, `Resistin`) to improve normality and reduce outliers.
+  - Standardized all features before model training to ensure fair comparison across algorithms.
+  - Built and evaluated several models:
+    - **Logistic Regression** (baseline and L2-regularized with `GridSearchCV`),
+    - **k-Nearest Neighbors (KNN)**,
+    - **Naïve Bayes**,
+    - **MLP Classifier**.
+  - Used **stratified train/test split** and **5-fold cross-validation** for robustness.
+  - Evaluation metrics included **F1-score**, **recall**, **AUC**, **ROC curves**, and **coefficient analysis**.
+- **Results**:
+  - Logistic regression with L2 regularization (`C=100`) achieved an **F1-score of 0.75**, with balanced recall across classes.
+  - MLP and KNN provided comparable performance, suggesting that **nonlinear methods** could enhance predictive power.
+- **Bonus**:
+  - Initial SVM experiments included (`svm.ipynb`), but not detailed in the final report.
+- **Skills Used**: Scikit-learn, Data Preprocessing, Model Evaluation, Hyperparameter Tuning, ROC Analysis.
+- [Project Link](https://github.com/ErwanR123/Breast-Cancer-Statistical-Learning-Project)
 
 ---
 
@@ -87,7 +98,19 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 ---
 
-### 🎲 **6. Monte Carlo Simulation Techniques**  
+### 🐱 **6. Cat vs Dog Image Classification**  
+- **Objective**: Train a CNN model from scratch to classify images of cats and dogs.  
+- **Details**:  
+  - Used layers such as Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization.  
+  - Processed a dataset of **~20,000 images**, resizing and normalizing for optimal model performance.  
+  - **Interactive Streamlit interface** for real-time image classification.  
+- **Result**: Achieved **~87% validation accuracy** with precision of 0.81 and recall of 0.79.  
+- **Skills Used**: Deep Learning, CNNs, Data Cleaning, Streamlit, TensorFlow Keras.  
+- [Project Link](https://github.com/ErwanR123/Deep_Learning-Based_Cat_and_Dog_Image_Classifier_with_Interactive_Streamlit_Interface)  
+
+---
+
+### 🎲 **7. Monte Carlo Simulation Techniques**  
 - **Objective**: Explore Monte Carlo methods for probability estimation on a **non-Gaussian-weighted mixture of distributions**.  
 - **Details**:  
   - Implemented **Inverse CDF sampling, Acceptance Rejection**, and variance reduction techniques.  
@@ -97,9 +120,10 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 - **Skills Used**: Monte Carlo Simulation, R, Statistical Estimation.  
 - [Project Link](https://github.com/ErwanR123/Monte_Carlo_Project)  
 
+
 ---
 
-### 📈 **7. Portfolio Management Project**  
+### 📈 **8. Portfolio Management Project**  
 - **Objective**: Analyze an investment portfolio by calculating optimal allocations.  
 - **Details**:  
   - Collected historical market data using `yfinance`.  
@@ -110,7 +134,7 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 ---
 
-### 💰 **8. Financial Data Science with Python**  
+### 💰 **9. Financial Data Science with Python**  
 - **Objective**: Analyze stock market trends for companies like Tesla, GameStop, and Netflix.  
 - **Details**:  
   - Collected stock data using `yfinance`, scraped revenue data via BeautifulSoup.  
@@ -118,19 +142,11 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 - **Skills Used**: Python, Data Collection, Web Scraping, Data Visualization.  
 - [Project Link](https://github.com/ErwanR123/Financial-Data-Science-with-Python-Coursera-Project)  
 
----
-
-### 🖥️ **9. CalculFacile: A Simple Mathematical Toolkit**  
-- **Objective**: Create a **web-based** application for fundamental math operations.  
-- **Details**:  
-  - Implemented a **matrix calculator, quadratic equation solver, and arithmetic tools**.  
-  - Built with **HTML, CSS, JavaScript** for an intuitive UI.  
-- **Skills Used**: Web Development, JavaScript, Frontend Design.  
-- [Project Link](https://github.com/ErwanR123/First-Web-project-2021-/tree/main)  
 
 ---
 
 ## 🌐 **Where to Find Me**  
 
 - **LinkedIn**: [My Profile](https://www.linkedin.com/in/erwan-ouabdesselam/)
-
+----
+⬇️⬇️ MORE PROJECTS 
