@@ -7,8 +7,8 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 ## 🎨 About Me  
 
-- **🔧 Programming languages and Software**: Python, R, C++, JAVA, SQL, SAS, MATLAB, VBA.  
-- **🔬 Libraries**: Matplotlib, NumPy, Pandas, Beautiful Soup, TensorFlow Keras, PyTorch, Scikit-Learn, Seaborn.  
+- **🔧 Programming**: Python, R, C++, JAVA, SQL, SAS, MATLAB, VBA.  
+- **🔬 Librairies**: Matplotlib, NumPy, Pandas, Beautiful Soup, TensorFlow Keras, PyTorch, Scikit-Learn, Seaborn.  
 - **🏆 Goal**: To pursue a specialized Master's degree in artificial intelligence and data science while gaining hands-on experience through internships.  
 
 ---
@@ -102,4 +102,4 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 - **LinkedIn**: [My Profile](https://www.linkedin.com/in/erwan-ouabdesselam/)
 ----
-⬇️⬇️ MORE PROJECTS HERE 
+⬇️⬇️ MORE PROJECTS HERE ⬇️⬇️
