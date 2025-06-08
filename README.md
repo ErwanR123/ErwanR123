@@ -98,55 +98,8 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 ---
 
-### 🐱 **6. Cat vs Dog Image Classification**  
-- **Objective**: Train a CNN model from scratch to classify images of cats and dogs.  
-- **Details**:  
-  - Used layers such as Conv2D, MaxPooling2D, Flatten, Dense, Dropout, and BatchNormalization.  
-  - Processed a dataset of **~20,000 images**, resizing and normalizing for optimal model performance.  
-  - **Interactive Streamlit interface** for real-time image classification.  
-- **Result**: Achieved **~87% validation accuracy** with precision of 0.81 and recall of 0.79.  
-- **Skills Used**: Deep Learning, CNNs, Data Cleaning, Streamlit, TensorFlow Keras.  
-- [Project Link](https://github.com/ErwanR123/Deep_Learning-Based_Cat_and_Dog_Image_Classifier_with_Interactive_Streamlit_Interface)  
-
----
-
-### 🎲 **7. Monte Carlo Simulation Techniques**  
-- **Objective**: Explore Monte Carlo methods for probability estimation on a **non-Gaussian-weighted mixture of distributions**.  
-- **Details**:  
-  - Implemented **Inverse CDF sampling, Acceptance Rejection**, and variance reduction techniques.  
-  - Used **Control Variates, Importance Sampling, and Stratified Sampling** to optimize accuracy.  
-  - **Compared convergence rates** to theoretical distributions.  
-- **Result**: Demonstrated improved efficiency and accuracy for complex probability estimation.  
-- **Skills Used**: Monte Carlo Simulation, R, Statistical Estimation.  
-- [Project Link](https://github.com/ErwanR123/Monte_Carlo_Project)  
-
-
----
-
-### 📈 **8. Portfolio Management Project**  
-- **Objective**: Analyze an investment portfolio by calculating optimal allocations.  
-- **Details**:  
-  - Collected historical market data using `yfinance`.  
-  - Calculated **Sharpe ratios, annualized returns, volatilities**, and **tangent portfolio**.  
-- **Result**: Identified the **optimal Tangent Portfolio** with maximum Sharpe ratio.  
-- **Skills Used**: Python, Finance, Data Analysis, yfinance, Pandas.  
-- [Project Link](https://github.com/ErwanR123/Portfolio_Management_Project)  
-
----
-
-### 💰 **9. Financial Data Science with Python**  
-- **Objective**: Analyze stock market trends for companies like Tesla, GameStop, and Netflix.  
-- **Details**:  
-  - Collected stock data using `yfinance`, scraped revenue data via BeautifulSoup.  
-  - Created **dual-axis visualizations** for stock performance and revenue trends.  
-- **Skills Used**: Python, Data Collection, Web Scraping, Data Visualization.  
-- [Project Link](https://github.com/ErwanR123/Financial-Data-Science-with-Python-Coursera-Project)  
-
-
----
-
 ## 🌐 **Where to Find Me**  
 
 - **LinkedIn**: [My Profile](https://www.linkedin.com/in/erwan-ouabdesselam/)
 ----
-⬇️⬇️ MORE PROJECTS 
+⬇️⬇️ MORE PROJECTS HERE 
