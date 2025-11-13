@@ -26,7 +26,27 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 ---
 
-### 🚀 **2. Hackathon Gen AI - Sia Partners & SFIL**  
+### 🧪 **2. Toxic Gas Detection – Data Challenge Bertin Technologies**  
+**Objective**: Predict 23 toxic gas concentrations from multichannel sensor signals in a context of **strong domain shift caused by humidity variations**.
+
+**Key Contributions**:  
+- Developed an **external de-humidification module** based on *polynomial Ridge regression* to correct systematic sensor drift.  
+- Designed a **geometry-aware feature engineering pipeline** leveraging the spatial organization of the sensor array:  
+  local gradients, inter-block contrasts, shape moments, L2-normalized profiles, etc.  
+- Built a modular, reusable **train/test-compatible processing pipeline**.  
+- Optimized a **multi-output Random Forest** robust to domain shift (adaptive clipping, max-samples tuning, feature selection).  
+- Performed stratified cross-validation across humidity regimes to assess inter-domain robustness.  
+
+**Results**:  
+- Significant reduction of humidity-induced domain shift.  
+- Stable model performance even under extreme humidity conditions.  
+- **Public leaderboard score**: **0.14318**  
+- **Current ranking**: **10ᵗʰ out of 148 participants**  
+  → [View ranking](https://challengedata.ens.fr/participants/challenges/156/ranking/public)  
+- [Project Link](https://github.com/ErwanR123/Toxic_Gas_Identification_Challenge_Bertin_Technologies-)
+---
+
+### 🚀 **3. Hackathon Gen AI - Sia Partners & SFIL**  
 
 - **Objective**: Develop an AI-powered pipeline to automatically generate structured reports for French local authorities (SPLs) based on financial, demographic, and investment data.  
 - **Details**:  
@@ -44,7 +64,7 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 - [Project Link](https://github.com/ErwanR123/Hackathon_Gen_AI_SIA_Partners_Silf/tree/main)
 
 ---
-### 🧠 3. Sentiment Analysis with Kernel PCA
+### 🧠 4. Sentiment Analysis with Kernel PCA
 
 - **Objective**: Evaluate whether Kernel PCA (cosine kernel) can enhance the performance of standard classifiers in a binary sentiment classification task on IMDb reviews.
 - **Approach**:  
@@ -61,7 +81,7 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
 
 - [Project Link](https://github.com/ErwanR123/Sentiment-Analysis-on-IMDb-Movie-Reviews-using-Kernel-PCA)
 ---
-### 🧪 **4. Breast Cancer Classification (Statistical Learning Project)**
+### 🧪 **5. Breast Cancer Classification (Statistical Learning Project)**
 
 - **Objective**: Predict breast cancer presence based on clinical biomarkers from the Breast Cancer Coimbra dataset.
 - **Details**:
@@ -82,18 +102,6 @@ Here, you'll find a selection of my main projects that reflect my interest in AI
   - Initial SVM experiments included (`svm.ipynb`), but not detailed in the final report.
 - **Skills Used**: Scikit-learn, Data Preprocessing, Model Evaluation, Hyperparameter Tuning, ROC Analysis.
 - [Project Link](https://github.com/ErwanR123/breast-cancer-detection)
-
----
-
-### 🚲 **5. Bike-Sharing Demand Analysis**  
-- **Objective**: Forecast urban bike-sharing demand using Generalized Linear Models (GLM).  
-- **Details**:  
-  - Explored dataset with **1,817 observations and 13 variables** (weather, time, season, etc.).  
-  - Used **Box-Cox transformations** and feature selection (**AIC, BIC**).  
-  - **Incorporated interaction effects** (e.g., time × season) for better accuracy.  
-- **Result**: Achieved an **MSE of 217.84**, providing insights for operational decision-making.  
-- **Skills Used**: R, GLMs, Predictive Analytics, Data Visualization.  
-- [Project Link](https://github.com/ErwanR123/Analysis_and_Modeling_of_Bike_Sharing_Demand_Using_GLM/tree/main)  
 
 ---
 
