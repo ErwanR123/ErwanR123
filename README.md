@@ -1,112 +1,126 @@
-
 # **Welcome to My GitHub Profile**
 
-Hi! I am Erwan, a **Second year Master's student in AI and statistical learning at Sorbonne University**, passionate about **data science** and **artificial intelligence**. I am always looking for opportunities to learn, collaborate, and work on innovative projects. 
-
-Here, you'll find a selection of my main projects that reflect my interest in AI and my technical skills.
+Hi! I am Erwan, a **Second-year Master's student in AI and Statistical Learning at Sorbonne University**, passionate about **data science**, **machine learning**, and **applied mathematics**.  
+Here, you'll find a selection of my main projects that reflect my academic background and technical expertise.
 
 ## 🎨 About Me  
-
-- **🔧 Programming**: Python, R, SQL, SAS, MATLAB, VBA.  
-- **🔬 Librairies**: Matplotlib, NumPy, Pandas, Beautiful Soup, TensorFlow Keras, PyTorch, Scikit-Learn, Seaborn.  
-
----
-
-## 📚 **My Projects**  
-
-## 📘 **1. Master’s Thesis – Kernel PCA**  
-- **Title**: *Kernel Principal Component Analysis: Theory and Applications*  
-- **Summary**: A full theoretical and experimental exploration of Kernel PCA, focusing on its advantages over classical PCA for nonlinear dimensionality reduction.  
-- **Applications**:  
-  - **Sentiment classification** on IMDb movie reviews  
-  - **Anomaly detection** in handwritten digits (MNIST)  
-  - **Signal denoising** on ECG data (MIT-BIH)  
-- **Deliverables**: Complete report (in French) and all source code (Python, Jupyter Notebooks)  
-- 🔗 [**View the GitHub Repository**](https://github.com/ErwanR123/Master-Thesis-Kernel-PCA/tree/main)
+- **🔧 Programming**: Python, R, SQL, SAS, MATLAB, VBA  
+- **🔬 Libraries**: NumPy, Pandas, SciPy, Scikit-Learn, PyTorch, TensorFlow, Matplotlib, Seaborn, BeautifulSoup  
 
 ---
 
-### 🧪 **2. Toxic Gas Detection – Data Challenge Bertin Technologies**  
-**Objective**: Predict 23 toxic gas concentrations from multichannel sensor signals in a context of **strong domain shift caused by humidity variations**.
+# 📚 **My Projects**
 
-**Key Contributions**:  
-- Developed an **external de-humidification module** based on *polynomial Ridge regression* to correct systematic sensor drift.  
-- Designed a **geometry-aware feature engineering pipeline** leveraging the spatial organization of the sensor array:  
-  local gradients, inter-block contrasts, shape moments, L2-normalized profiles, etc.  
-- Built a modular, reusable **train/test-compatible processing pipeline**.  
-- Optimized a **multi-output Random Forest** robust to domain shift (adaptive clipping, max-samples tuning, feature selection).  
-- Performed stratified cross-validation across humidity regimes to assess inter-domain robustness.  
+---
+
+## 📘 **1. Master’s Thesis – Kernel Principal Component Analysis: Theory and Applications**
+
+- Full theoretical and experimental study of **Kernel PCA**, focusing on nonlinear dimensionality reduction and spectral analysis.  
+- Applications include:  
+  - **Sentiment classification** on IMDb  
+  - **Anomaly detection** on MNIST  
+- Deliverables: complete report (FR) + full Python/Jupyter codebase.  
+
+🔗 **Repository**: [Master Thesis – Kernel PCA](https://github.com/ErwanR123/Master-Thesis-Kernel-PCA)
+
+---
+
+## 🧪 **2. Toxic Gas Detection – Data Challenge (Bertin Technologies)**  
+Predicting 23 gas concentrations from multichannel sensors under **strong humidity-driven domain shift**.
+
+**Key contributions**:  
+- Designed a **Ridge-based drift correction module**.  
+- Developed geometry-aware **feature engineering** (gradients, contrasts, shape moments).  
+- Built a modular train/test pipeline and domain-aware cross-validation.  
+- Trained a robust **multi-output Random Forest**.
 
 **Results**:  
-- Significant reduction of humidity-induced domain shift.  
-- Stable model performance even under extreme humidity conditions.  
-- **Public leaderboard score**: **0.14318**  
-- **Current ranking**: **10ᵗʰ out of 148 participants**  
-  → [View ranking](https://challengedata.ens.fr/participants/challenges/156/ranking/public)  
-- [Project Link](https://github.com/ErwanR123/Toxic_Gas_Identification_Challenge_Bertin_Technologies-)
----
+- Significant mitigation of humidity-related drift  
+- **Rank: 10ᵗʰ / 154** with a **public RMSE = 0.14318**
 
-### 🚀 **3. Hackathon Gen AI - Sia Partners & SFIL**  
-
-- **Objective**: Develop an AI-powered pipeline to automatically generate structured reports for French local authorities (SPLs) based on financial, demographic, and investment data.  
-- **Details**:  
-  - **Data Sources**: Open government datasets, financial reports, Wikipedia, LinkedIn, and news articles.  
-  - **Technologies**: AWS Lambda, S3, SerpAPI, BeautifulSoup, Pandas, Mistral AI (LLM for text summarization and chatbot).  
-  - **Key Features**:  
-    - Automated data extraction and enrichment using **SerpAPI & Wikipedia API**.  
-    - Integration of **Mistral AI** to summarize and extract key insights from reports.  
-    - Classification of local authorities using **ELECTRE multi-criteria decision analysis**.  
-    - **Interactive Streamlit dashboard** displaying structured reports, financial indicators, and ELECTRE results.  
-  - **Future Enhancements**:  
-    - **Chatbot powered by Mistral AI** for interactive queries on local authority data.  
-    - Improved API efficiency and optimization of financial data processing.  
-- **Skills Used**: Cloud Computing (AWS Lambda, S3), NLP (Mistral AI), Web Scraping (BeautifulSoup, SerpAPI), Data Processing (Pandas), Decision Analysis (ELECTRE).  
-- [Project Link](https://github.com/ErwanR123/Hackathon_Gen_AI_SIA_Partners_Silf/tree/main)
+🔗 **Repository**: [Toxic Gas Identification Challenge](https://github.com/ErwanR123/Toxic_Gas_Identification_Challenge_Bertin_Technologies-)
 
 ---
-### 🧠 4. Sentiment Analysis with Kernel PCA
 
-- **Objective**: Evaluate whether Kernel PCA (cosine kernel) can enhance the performance of standard classifiers in a binary sentiment classification task on IMDb reviews.
-- **Approach**:  
-  - Applied a complete NLP preprocessing pipeline: lowercasing, lemmatization with POS-tagging, stopword removal.  
-  - Converted text into numerical features using Bag-of-Words (`CountVectorizer`) with a fixed vocabulary size.  
-  - Reduced dimensionality using Kernel PCA (cosine kernel), and compared with both classical PCA and no reduction.  
-  - Trained and evaluated three classifiers: Logistic Regression, SVM (RBF kernel), and K-Nearest Neighbors.  
-  - Analyzed how performance varies depending on the number of components used in Kernel PCA.
-- **Findings**:  
-  - Kernel PCA significantly improved KNN classification performance.  
-  - Logistic Regression and SVM showed minor but consistent improvements with Kernel PCA over PCA.  
-  - An optimal number of components was identified to retain over 90% of the explained variance with the cosine kernel.
-- **Skills Used**: NLP (NLTK), Text Vectorization, Dimensionality Reduction (Kernel PCA), Scikit-learn, Model Evaluation, Experimental Design
+## 🚀 **3. Gen AI Hackathon – Sia Partners & SFIL**
 
-- [Project Link](https://github.com/ErwanR123/Sentiment-Analysis-on-IMDb-Movie-Reviews-using-Kernel-PCA)
+Developed an **AI pipeline** to automatically generate structured reports for French public organizations.  
+Integrated data from open datasets, financial statements, Wikipedia, APIs, and web scraping tools.  
+Used **Mistral AI** with a **RAG pipeline** for summarization and insight extraction.  
+Applied **ELECTRE** for ranking and built a **Streamlit dashboard** hosted via AWS Lambda + S3.
+
+**Impact**: Reduced report generation time **from hours to minutes**.
+
+🔗 **Repository**: [Gen AI Hackathon – Sia Partners & SFIL](https://github.com/ErwanR123/Hackathon_Gen_AI_SIA_Partners_Silf/tree/main)
+
 ---
-### 🧪 **5. Breast Cancer Classification (Statistical Learning Project)**
 
-- **Objective**: Predict breast cancer presence based on clinical biomarkers from the Breast Cancer Coimbra dataset.
-- **Details**:
-  - Performed detailed **exploratory data analysis**: histograms, boxplots, scatter matrices, and correlation matrices.
-  - Applied **log transformation** to right-skewed variables (`Insulin`, `HOMA`, `MCP.1`, `Resistin`) to improve normality and reduce outliers.
-  - Standardized all features before model training to ensure fair comparison across algorithms.
-  - Built and evaluated several models:
-    - **Logistic Regression** (baseline and L2-regularized with `GridSearchCV`),
-    - **k-Nearest Neighbors (KNN)**,
-    - **Naïve Bayes**,
-    - **MLP Classifier**.
-  - Used **stratified train/test split** and **5-fold cross-validation** for robustness.
-  - Evaluation metrics included **F1-score**, **recall**, **AUC**, **ROC curves**, and **coefficient analysis**.
-- **Results**:
-  - Logistic regression with L2 regularization (`C=100`) achieved an **F1-score of 0.75**, with balanced recall across classes.
-  - MLP and KNN provided comparable performance, suggesting that **nonlinear methods** could enhance predictive power.
-- **Bonus**:
-  - Initial SVM experiments included (`svm.ipynb`), but not detailed in the final report.
-- **Skills Used**: Scikit-learn, Data Preprocessing, Model Evaluation, Hyperparameter Tuning, ROC Analysis.
-- [Project Link](https://github.com/ErwanR123/breast-cancer-detection)
+## 🧠 **4. Sentiment Analysis with Kernel PCA**
+
+Built a complete **NLP pipeline** for IMDb sentiment classification:  
+text cleaning, POS-tag lemmatization, stopword removal, and **Bag-of-Words** vectorization.  
+Trained Logistic Regression, SVM, and KNN baselines, then applied **Kernel PCA (cosine kernel)** for nonlinear dimensionality reduction.
+
+**Findings**:  
+- Strong performance boost for **KNN**  
+- Consistent improvements for Logistic Regression & SVM  
+- Optimal KPCA components captured ~90% of cosine-kernel variance  
+
+🔗 **Repository**:  [Sentiment Analysis with Kernel PCA](https://github.com/ErwanR123/Sentiment-Analysis-on-IMDb-Movie-Reviews-using-Kernel-PCA)
+
+---
+
+## 🎨 **5. Deep Learning – Generative Models**
+
+Designed and trained **generative models in PyTorch**, including:  
+- **Variational Autoencoders (VAEs)**  
+- **DCGANs**  
+- **Diffusion Models**
+
+Implemented custom architectures, sampling procedures, noise schedules, and evaluation tools (reconstructions, latent interpolations, synthetic samples).
+
+🔗 **[Repository](https://github.com/ErwanR123/Generative-Models-Cats-VAE-DCGAN-Diffusion-on-64-64-Cat-Images)**
+
+---
+
+## 🌍 **6. Boat Detection in Satellite Imagery**
+
+Fine-tuned a **YOLOv8** model for boat detection and segmentation on satellite images.  
+Work included dataset formatting, augmentation, model training, evaluation, and inference pipeline.
+
+🔗 **[Repository](https://github.com/ErwanR123/Boat-Detection-in-Satellite-Imagery-with-YOLOv8)**
+
+---
+
+## ⚡ **7. Permuted MNIST Classification – Efficient ML under Edge-AI Constraints**
+
+Built lightweight neural models under strict **embedded constraints**:  
+- CPU-only  
+- 2 threads  
+- 4 GB RAM  
+- **< 60 seconds per task** (10 sequential tasks with pixel & label permutations)
+
+Designed an optimized MLP achieving **98.63% accuracy**, demonstrating excellent performance–runtime trade-offs.
+
+🔗 **[Repository](https://github.com/ErwanR123/Permuted-MNIST-Challenge)**
+
+---
+
+## 🧪 **8. Breast Cancer Classification (Statistical Learning Project)**
+
+Developed a full ML pipeline to predict breast cancer from clinical biomarkers (Coimbra dataset).  
+Performed structured EDA, log-transforms, and standardization.  
+Compared Logistic Regression, KNN, Naïve Bayes, and MLP using stratified CV.
+
+**Best performance**: L2-regularized Logistic Regression with **F1 = 0.75**.
+
+🔗 **Repository**: [Breast Cancer Classification](https://github.com/ErwanR123/breast-cancer-detection)
 
 ---
 
 ## 🌐 **Where to Find Me**  
+- **LinkedIn**: [Erwan Ouabdesselam](https://www.linkedin.com/in/erwan-ouabdesselam/)
 
-- **LinkedIn**: [My Profile](https://www.linkedin.com/in/erwan-ouabdesselam/)
-----
-⬇️⬇️ MORE PROJECTS HERE ⬇️⬇️
+---
+
+⬇️⬇️ MORE PROJECTS BELOW ⬇️⬇️
