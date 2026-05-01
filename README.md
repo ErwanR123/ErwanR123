@@ -7,7 +7,6 @@ I enjoy tackling complex problems and understanding them deeply through mathemat
 ---
 
 ## 💼 Experience
-
 **Machine Learning Engineer Intern - Criteo (Paris)**  
 Working on semantic IDs for large-scale recommendation systems, focusing on robustness to sparse product data and skewed usage.
 
