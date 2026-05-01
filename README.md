@@ -3,131 +3,73 @@
 Hi! I am Erwan, a master’s student in Machine Learning and Statistics at Sorbonne University, with a strong background in applied mathematics and statistics (Université Paris Dauphine). Currently ML Engineer Intern at Criteo, working on large-scale recommendation systems.
 
 I enjoy tackling complex problems and understanding them deeply through mathematics and machine learning.
+
 ---
 
 ## 💼 Experience
 
-**Machine Learning Engineer Intern — Criteo (Paris)**  
+**Machine Learning Engineer Intern - Criteo (Paris)**  
 Working on semantic IDs for large-scale recommendation systems, focusing on robustness to sparse product data and skewed usage.
 
-**Research Intern — NeuTigers (Princeton spin-off)**  
+**Research Intern - NeuTigers (Princeton spin-off)**  
 Developed machine learning pipelines for physiological time-series data (CGM), including signal processing, feature extraction, and anomaly detection.
 
 ---
 Here, you'll find a selection of my main projects that reflect my academic background and technical expertise.
 
-
 # 📚 **My Projects**
 
-
-## 📘 **1. Master’s Thesis – Kernel Principal Component Analysis: Theory and Applications**
-
-- Full theoretical and experimental study of **Kernel PCA**, focusing on nonlinear dimensionality reduction and spectral analysis.  
-- Applications include:  
-  - **Sentiment classification** on IMDb  
-  - **Anomaly detection** on MNIST  
-- Deliverables: complete report (FR) + full Python/Jupyter codebase.  
-
-🔗 **Repository**: [Master Thesis – Kernel PCA](https://github.com/ErwanR123/Master-Thesis-Kernel-PCA)
+**🎨 Generative Models (VAE, GAN, Diffusion)**  
+From-scratch implementation and comparison of generative models in PyTorch (VAE, DCGAN, U-Net-based diffusion).  
+Focus on training dynamics and sample quality.   
+🔗 [Repository](https://github.com/ErwanR123/Generative-Models-Cats-VAE-DCGAN-Diffusion-on-64-64-Cat-Images)
 
 ---
 
-## 🧪 **2. Toxic Gas Detection – Data Challenge (Bertin Technologies)**  
-Predicting 23 gas concentrations from multichannel sensors under **strong humidity-driven domain shift**.
-
-**Key contributions**:  
-- Designed a **Ridge-based drift correction module**.  
-- Developed geometry-aware **feature engineering** (gradients, contrasts, shape moments).  
-- Built a modular train/test pipeline and domain-aware cross-validation.  
-- Trained a robust **multi-output Random Forest**.
-
-**Results**:  
-- Significant mitigation of humidity-related drift  
-- **Rank: 10ᵗʰ / 154** with a **public RMSE = 0.14318**
-
-🔗 **Repository**: [Toxic Gas Identification Challenge](https://github.com/ErwanR123/Toxic_Gas_Identification_Challenge_Bertin_Technologies-)
+**⚙️ GPU MergeSort - Parallel Algorithm**  
+CUDA implementation of the Merge Path algorithm for parallel merging, with a focus on memory management and GPU parallelism.  
+Optimized for efficient memory access and high GPU throughput.   
+🔗 [Repository](https://github.com/ErwanR123/MergeSort_GPU_Programming)
 
 ---
 
-## 🚀 **3. Gen AI Hackathon – Sia Partners & SFIL**
-
-Developed an **AI pipeline** to automatically generate structured reports for French public organizations.  
-Integrated data from open datasets, financial statements, Wikipedia, APIs, and web scraping tools.  
-Used **Mistral AI** with a **RAG pipeline** for summarization and insight extraction.  
-Applied **ELECTRE** for ranking and built a **Streamlit dashboard** hosted via AWS Lambda + S3.
-
-**Impact**: Reduced report generation time **from hours to minutes**.
-
-🔗 **Repository**: [Gen AI Hackathon – Sia Partners & SFIL](https://github.com/ErwanR123/Hackathon_Gen_AI_SIA_Partners_Silf/tree/main)
+**🚗 CenterPoint - 3D Object Detection**  
+Reproduction and in-depth analysis of a state-of-the-art LiDAR detection model.  
+Experiments on nuScenes, with a focus on the BEV pipeline and detection performance.  
+🔗 [Repository](https://github.com/ErwanR123/Analysis_of_CenterPoint)
 
 ---
 
-## 🧠 **4. Sentiment Analysis with Kernel PCA**
-
-Built a complete **NLP pipeline** for IMDb sentiment classification:  
-text cleaning, POS-tag lemmatization, stopword removal, and **Bag-of-Words** vectorization.  
-Trained Logistic Regression, SVM, and KNN baselines, then applied **Kernel PCA (cosine kernel)** for nonlinear dimensionality reduction.
-
-**Findings**:  
-- Strong performance boost for **KNN**  
-- Consistent improvements for Logistic Regression & SVM  
-- Optimal KPCA components captured ~90% of cosine-kernel variance  
-
-🔗 **Repository**:  [Sentiment Analysis with Kernel PCA](https://github.com/ErwanR123/Sentiment-Analysis-on-IMDb-Movie-Reviews-using-Kernel-PCA)
+**🧪 Toxic Gas Detection — Data Challenge**  
+Multi-output regression under strong domain shift (humidity impact on sensors).  
+Designed a drift correction module and geometry-based feature engineering.  
+**Result:** Top 10 / 160 — RMSE: 0.143  
+🔗 [Repository](https://github.com/ErwanR123/Toxic_Gas_Identification_Challenge_Bertin_Technologies-)
 
 ---
 
-## 🎨 **5. Deep Learning – Generative Models**
+**📘 Master Thesis - Kernel Principal Component Analysis**  
+Study of Kernel PCA for nonlinear dimensionality reduction, with both theoretical insights and practical applications.  
+Applied to NLP and anomaly detection.    
+🔗 [Repository](https://github.com/ErwanR123/Master-Thesis-Kernel-PCA)
 
-Designed and trained **generative models in PyTorch**, including:  
-- **Variational Autoencoders (VAEs)**  
-- **DCGANs**  
-- **Diffusion Models**
-
-Implemented custom architectures, sampling procedures, noise schedules, and evaluation tools (reconstructions, latent interpolations, synthetic samples).
-
-🔗 **[Repository](https://github.com/ErwanR123/Generative-Models-Cats-VAE-DCGAN-Diffusion-on-64-64-Cat-Images)**
+---
+**🚀 GenAI Hackathon - Automated Reports**  
+Pipeline for automated report generation from heterogeneous data sources.  
+Combines scraping, APIs, LLM-based extraction, and a RAG component, with a Streamlit interface deployed on AWS. Reduced generation time from hours to minutes.  
+🔗 [Repository](https://github.com/ErwanR123/Hackathon_Gen_AI_SIA_Partners_Silf)
 
 ---
 
-## 🌍 **6. Boat Detection in Satellite Imagery**
-
-Fine-tuned a **YOLOv8** model for boat detection and segmentation on satellite images.  
-Work included dataset formatting, augmentation, model training, evaluation, and inference pipeline.
-
-🔗 **[Repository](https://github.com/ErwanR123/Boat-Detection-in-Satellite-Imagery-with-YOLOv8)**
+**🧠 Permuted MNIST - Efficient ML under Constraints**  
+Lightweight models under strict constraints (CPU, memory, runtime).  
+Optimized MLP achieving 98.63% accuracy with an average runtime of 34 seconds per task.  
+🔗 [Repository](https://github.com/ErwanR123/Permuted-MNIST-Challenge)
 
 ---
 
-## ⚡ **7. Permuted MNIST Classification – Efficient ML under Edge-AI Constraints**
-
-Built lightweight neural models under strict **embedded constraints**:  
-- CPU-only  
-- 2 threads  
-- 4 GB RAM  
-- **< 60 seconds per task** (10 sequential tasks with pixel & label permutations)
-
-Designed an optimized MLP achieving **98.63% accuracy**, demonstrating excellent performance–runtime trade-offs.
-
-🔗 **[Repository](https://github.com/ErwanR123/Permuted-MNIST-Challenge)**
-
----
-
-## 🧪 **8. Breast Cancer Classification (Statistical Learning Project)**
-
-Developed a full ML pipeline to predict breast cancer from clinical biomarkers (Coimbra dataset).  
-Performed structured EDA, log-transforms, and standardization.  
-Compared Logistic Regression, KNN, Naïve Bayes, and MLP using stratified CV.
-
-**Best performance**: L2-regularized Logistic Regression with **F1 = 0.75**.
-
-🔗 **Repository**: [Breast Cancer Classification](https://github.com/ErwanR123/breast-cancer-detection)
-
----
-
-## 🌐 **Where to Find Me**  
+## 🌐 **Contact**  
 - **LinkedIn**: [Erwan Ouabdesselam](https://www.linkedin.com/in/erwan-ouabdesselam/)
-
 ---
 
 ⬇️⬇️ MORE PROJECTS BELOW ⬇️⬇️
