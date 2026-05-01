@@ -1,17 +1,24 @@
 # **Welcome to My GitHub Profile**
 
-Hi! I am Erwan, a **Second-year Master's student in AI and Statistical Learning at Sorbonne University**, passionate about **data science**, **machine learning**, and **applied mathematics**.  
-Here, you'll find a selection of my main projects that reflect my academic background and technical expertise.
+Hi! I am Erwan, a master’s student in Machine Learning and Statistics at Sorbonne University, with a strong background in applied mathematics and statistics (Université Paris Dauphine). Currently ML Engineer Intern at Criteo, working on large-scale recommendation systems.
 
-## 🎨 About Me  
-- **🔧 Programming**: Python, R, SQL, SAS, MATLAB, VBA  
-- **🔬 Libraries**: NumPy, Pandas, SciPy, Scikit-Learn, PyTorch, TensorFlow, Matplotlib, Seaborn, BeautifulSoup  
+I enjoy tackling complex problems and understanding them deeply through mathematics and machine learning.
+---
+
+## 💼 Experience
+
+**Machine Learning Engineer Intern — Criteo (Paris)**  
+Working on semantic IDs for large-scale recommendation systems, focusing on robustness to sparse product data and skewed usage.
+
+**Research Intern — NeuTigers (Princeton spin-off)**  
+Developed machine learning pipelines for physiological time-series data (CGM), including signal processing, feature extraction, and anomaly detection.
 
 ---
+Here, you'll find a selection of my main projects that reflect my academic background and technical expertise.
+
 
 # 📚 **My Projects**
 
----
 
 ## 📘 **1. Master’s Thesis – Kernel Principal Component Analysis: Theory and Applications**
 
